@@ -1,0 +1,12 @@
+{
+
+  "db": {
+    "name": "db",
+    "connector": "mongodb",
+    "host": "127.0.0.1",
+    "database": "map-db",
+    "username": "root",
+    "password": "",
+    "port": 27017
+  }
+}
