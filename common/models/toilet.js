@@ -1,13 +1,6 @@
 
 
 module.exports = function(Toilet) {
-
-    var publicConfig = {
-        key: 'AIzaSyC8FW0KGjAiDEP_8ds-YlATX164P-tigFc',
-        stagger_time:       1000, // for elevationPath
-        encode_polylines:   false,
-        secure:             true // use https
-    };
     
     Toilet.fetchToiletData = function(viewportRange, cb){
         
